@@ -44,3 +44,14 @@ def menu ():
     elif opcion==3:
         n=int(input("Ingrese un numero: "))
         print(f"{cuenta_regresiva(n)}")
+    elif opcion==4:
+        n=int(input("Ingrese un numero: "))
+        print(f"La suma de los digitos es: {sumar_digitos(n)}")
+    elif opcion==5:
+        n=int(input("Ingrese un numero: "))
+        print(f"El numero ingresado tiene {contar_digitos(n)} digitos")
+    elif opcion==6:
+        print("Gracias por usar el programa")
+    else:
+        print("Opcion no valida")
+menu()
